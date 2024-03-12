@@ -1,3 +1,5 @@
+# Código que agrega, modifica y ordena una agenda
+
 # Diccionario original
 recordatorios = [['2021-01-01', "11:00", "Levantarse y ejercitar"],
                  ['2021-05-01', "15:00", "No trabajar"],
@@ -36,6 +38,4 @@ recordatorios_ordenados = sorted(recordatorios, key=lambda x: x[0])
 # Verificar los cambios
 for recordatorio in recordatorios_ordenados:
     print(f"Fecha: {recordatorio[0]}, Hora: {recordatorio[1]}, Actividad: {recordatorio[2]}")
-
-
 
